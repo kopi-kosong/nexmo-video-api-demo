@@ -49,7 +49,8 @@ app.get('/', function (req, res) {
     token: token	
 	   
   });
-   //console.log(apiKey);
-  // console.log(sessionId);
-   //console.log(token);
+ console.log('sessionid/');
+ console.log(sessionId);
+  console.log('token/');
+   console.log(token);
 });
