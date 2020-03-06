@@ -2,9 +2,9 @@
 
 // Dependencies
 var express = require('express');
+const bodyParser = require('body-parser');
 var OpenTok = require('opentok');
 var app = express();
-
 var opentok;
 var apiKey = process.env.API_KEY;
 var apiSecret = process.env.API_SECRET;
@@ -26,7 +26,7 @@ function init() {
 
 // Initialize the express app
 app.use(express.static(__dirname + '/public')); //
-
+app.use(bodyParser.json());
 // Initialize OpenTok
 opentok = new OpenTok(apiKey, apiSecret);
 
@@ -46,6 +46,10 @@ app.get('/', function (req, res) {
   res.render('index.ejs', {
     apiKey: apiKey,
     sessionId: sessionId,
-    token: token
+    token: token	
+	   
   });
+   //console.log(apiKey);
+  // console.log(sessionId);
+   //console.log(token);
 });
