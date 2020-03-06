@@ -9,6 +9,8 @@ var opentok;
 var apiKey = process.env.API_KEY;
 var apiSecret = process.env.API_SECRET;
 
+const PORT = process.env.PORT || 3000
+
 // Verify that the API Key and API Secret are defined
 if (!apiKey || !apiSecret) {
   console.log('You must specify API_KEY and API_SECRET environment variables');
@@ -17,8 +19,8 @@ if (!apiKey || !apiSecret) {
 
 // Starts the express app
 function init() {
-  app.listen(3000, function () {
-    console.log('You\'re app is now ready at http://localhost:3000/');
+  app.listen(PORT, function () {
+    console.log('You\'re app is now ready ');
   });
 }
 
