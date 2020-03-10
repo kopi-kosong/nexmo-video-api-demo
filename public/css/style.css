@@ -109,8 +109,10 @@ body {
 	bottom:50px;
     color: #ff6734;
     background: rgba(27, 134, 144, 0.4);
-
+    display: flex;
+    justify-content: center;
     align-items: center;
+    border: 1px solid #ff6734;
 }
 
 .App-mask.hidden {
