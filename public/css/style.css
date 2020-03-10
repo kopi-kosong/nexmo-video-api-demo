@@ -115,8 +115,7 @@ body {
 }
 
 .App-mask.hidden {
-    position: absolute;
-    top: 60%;
+   display: none;
 }
 
 .App-mask .react-spinner {
@@ -133,9 +132,12 @@ body {
 }
 
 .App-mask .message.button {
+	position: relative;
+	top:60%;
     border: 1px solid #ff6734;
     padding: 20px 40px;
     border-radius: 6px;
+	
 }
 
 .App-video-container .video-container {
