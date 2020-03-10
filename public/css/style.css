@@ -38,7 +38,7 @@ body {
 
 .App-main {
     position: relative;
-    width: 75vw;
+    width: 5vw;
     height: calc(75vw * .6);
     margin: 10px auto;
     border: 1px solid lightblue;
