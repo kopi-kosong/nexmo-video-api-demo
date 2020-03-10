@@ -38,7 +38,7 @@ body {
 
 .App-main {
     position: relative;
-    width: 70vw;
+    width: 68vw;
     height: calc(75vw * .6);
     margin: 10px auto;
     border: 1px solid lightblue;
@@ -133,7 +133,7 @@ body {
 
 .App-mask .message.button {
 	position: absolute;
-	top:60%;
+	top:70%;
     border: 1px solid #ff6734;
     padding: 20px 40px;
     border-radius: 6px;
