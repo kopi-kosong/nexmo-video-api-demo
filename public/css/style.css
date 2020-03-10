@@ -134,7 +134,7 @@ body {
 .App-mask .message.button {
 	position: absolute;
 	top:70%;
-    border: 1px solid #ff6734;
+    border: 1px solid black;
     padding: 20px 40px;
     border-radius: 6px;
 	font-weight: bold;
