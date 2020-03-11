@@ -18,7 +18,7 @@ body {
 
 .App-header {
     background-color: #222;
-    height: 40px;
+    height: 60px;
     color: #ff6734;
     display: flex;
     justify-content: space-between;
@@ -32,7 +32,7 @@ body {
 }
 
 .App-header-logo {
-    height: 60%;
+    height: 80%;
     width: auto;
 }
 
