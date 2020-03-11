@@ -38,10 +38,13 @@ body {
 
 /* control logo on the picture */
 .App-logo {
- 
- float: right; 
+/* display: inline; 
+ float: right; */
+ width: 70px;
+    height: 50px;
   	position: absolute;
-	top:5%;
+	top:2%;
+	right:2%;
 }
 /* control logo on the picture 
 .alignright { 
