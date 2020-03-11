@@ -55,8 +55,8 @@ float: right;
 */
 .App-main {
     position: relative;
-    width: 75vw;
-    height: calc(75vw * .6);
+    width: 80vw;
+    height: calc(80vw * .7);
     margin: 10px auto;
     border: 1px solid lightblue;
     background: url('/images/1.jpg') no-repeat center fixed;
