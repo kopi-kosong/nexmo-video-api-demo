@@ -54,7 +54,7 @@ float: right;
 }
 */
 .App-main {
-    position: absolute;
+    position: relative;
     width: 75vw;
     height: calc(75vw * .6);
     margin: 10px auto;
@@ -109,7 +109,7 @@ float: right;
 
 .App-control-container .ots-video-control.video.muted {
     background-image: url(https://assets.tokbox.com/solutions/images/icon-no-video.png);
-	background-color: lightgrey;
+
 }
 
 .App-control-container .ots-video-control.end-call {
