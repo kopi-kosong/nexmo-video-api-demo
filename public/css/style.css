@@ -187,7 +187,8 @@ float: right;
 }
 
 .App-video-container .video-container.hidden {
-    display: block;
+	background-color:transparent;
+    display: none;
 }
 
 .App-video-container .video-container.active-2 .OT_subscriber {
