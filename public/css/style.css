@@ -54,7 +54,7 @@ float: right;
 }
 */
 .App-main {
-    position: relative;
+    position: absolute;
     width: 75vw;
     height: calc(75vw * .6);
     margin: 10px auto;
@@ -94,18 +94,22 @@ float: right;
 
 .App-control-container .ots-video-control.audio {
     background-image: url(https://assets.tokbox.com/solutions/images/icon-mic.png);
+	background-color: lightgrey;
 }
 
 .App-control-container .ots-video-control.audio:hover, .App-control-container .ots-video-control.audio.muted {
     background-image: url(https://assets.tokbox.com/solutions/images/icon-muted-mic.png);
+	background-color: lightgrey;
 }
 
 .App-control-container .ots-video-control.video {
     background-image: url(https://assets.tokbox.com/solutions/images/icon-video.png);
+	background-color: lightgrey;
 }
 
 .App-control-container .ots-video-control.video.muted {
     background-image: url(https://assets.tokbox.com/solutions/images/icon-no-video.png);
+	background-color: lightgrey;
 }
 
 .App-control-container .ots-video-control.end-call {
