@@ -82,8 +82,7 @@ const app = () => {
         }
         else {
           document.getElementById('start-mask').classList.remove('hidden');
-		  document.getElementById('App-main').innerHTML.reload;
-          document.getElementById('controls').classList.add('hidden');
+	      document.getElementById('controls').classList.add('hidden');
           document.getElementById('cameraPublisherContainer').classList.add('hidden');
           document.getElementById('toggleLocalVideo').classList.remove('muted');
           document.getElementById('toggleLocalAudio').classList.remove('muted');
