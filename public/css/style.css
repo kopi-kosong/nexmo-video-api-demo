@@ -33,14 +33,15 @@ body {
 
 .App-header-logo {
     height: 60%;
-    
+    width: auto;
 }
 
 /* control logo on the picture */
 .App-logo {
- display: inline; 
+ 
  float: right; 
-    width: auto;
+  	position: absolute;
+	top:5%;
 }
 /* control logo on the picture 
 .alignright { 
