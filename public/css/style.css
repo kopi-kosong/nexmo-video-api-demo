@@ -41,7 +41,11 @@ body {
  
     width: auto;
 }
-
+/* control logo on the picture */
+.alignright { 
+display: inline; 
+float: right; 
+}
 
 .App-main {
     position: relative;
