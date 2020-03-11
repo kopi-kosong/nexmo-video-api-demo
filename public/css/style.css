@@ -193,7 +193,8 @@ float: right;
 
 .App-video-container .video-container.active-2 .OT_subscriber {
 	background-color:transparent;
-    width: 50%;
+    width: 100%;
+	 display: none;
 }
 
 .App-video-container .video-container.active-3 .OT_subscriber {
