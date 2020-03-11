@@ -85,8 +85,8 @@ float: right;
     border: 2px solid white;
     border-radius: 50%;
     background-position: center;
-   /* background-color: rgba(27, 134, 144, 0.4);
-    background-color: lightgrey;*/
+    background-color: rgba(27, 134, 144, 0.4);
+    background-color: lightgrey;
     background-repeat: no-repeat;
     cursor: pointer;
 }
