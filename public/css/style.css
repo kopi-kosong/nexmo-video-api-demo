@@ -192,6 +192,7 @@ float: right;
 }
 
 .App-video-container .video-container.active-2 .OT_subscriber {
+	background-color:transparent;
     width: 50%;
 }
 
