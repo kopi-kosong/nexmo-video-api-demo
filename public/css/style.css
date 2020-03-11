@@ -187,12 +187,11 @@ float: right;
 }
 
 .App-video-container .video-container.hidden {
-    display: none;
+    display: block;
 }
 
 .App-video-container .video-container.active-2 .OT_subscriber {
     width: 50%;
- background-color:transparent;
 }
 
 .App-video-container .video-container.active-3 .OT_subscriber {
