@@ -31,10 +31,17 @@ body {
     font-weight: 200;
 }
 
-.App-logo {
+.App-header-logo {
     height: 60%;
     width: auto;
 }
+
+/* control logo on the picture */
+.App-logo {
+ 
+    width: auto;
+}
+
 
 .App-main {
     position: relative;
