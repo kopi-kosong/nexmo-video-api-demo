@@ -60,7 +60,7 @@ float: right;
     margin: 10px auto;
     border: 1px solid lightblue;
     background: url('/images/1.jfif') no-repeat center fixed;
-    background-size: auto;
+    background-size: cover;
 }
 
 .App-control-container {
