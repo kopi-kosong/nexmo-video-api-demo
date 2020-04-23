@@ -1,6 +1,6 @@
 # Nexmo Video Demo
 
-This is a simple demo app that modified based on "OpenTok Hello World Node". I
+This is a simple demo app that modified based on "OpenTok Hello World Node". 
 
 ## Running the App
 
